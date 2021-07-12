@@ -28,6 +28,8 @@ source $ZSH/oh-my-zsh.sh
 # Fig support
 source /etc/bash_completion.d/hgd
 
+# fix no matches found
+unsetopt nomatch
 
 # Personal aliases
 alias history="history -i"
